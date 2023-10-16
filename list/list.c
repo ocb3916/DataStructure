@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #define MAX_LIST_SIZE 100 // 리스트의 최대크기
 
 typedef int element; // 항목의 정의
