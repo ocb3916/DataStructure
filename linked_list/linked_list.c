@@ -50,6 +50,19 @@ void print_list(ListNode *head) {
     printf("NULL \n");
 }
 
+ListNode *reverse(ListNode *head) {
+    ListNode *p, *q, *r;
+    p = head;
+    q = NULL;
+    while (p != NULL) {
+        r = q;
+        q = p;
+        p = p->link;
+        q->link = r;
+    }
+    return q;
+}
+
 // 테스트 프로그램
 int main(void) {
     ListNode *head = NULL;
