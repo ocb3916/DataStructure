@@ -54,7 +54,7 @@ ListNode *reverse(ListNode *head) {
     ListNode *p, *q, *r;
     p = head;
     q = NULL;
-    while (p != NULL) {
+    while (p != NULL){
         r = q;
         q = p;
         p = p->link;
