@@ -8,7 +8,7 @@ typedef struct {
     int size;                     // 현재 리스트에 저장된 항목들의 개수
 } ArrayListType;
 
-// 오류 처리 함수s
+// 오류 처리 함수
 void error(char *message) {
     fprintf(stderr, "%s\n", message);
     exit(1);
