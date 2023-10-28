@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 typedef int element;
-
 typedef struct ListNode { // 노드 타입을 구조체로 정의한다.
     element data;
     struct ListNode *link;

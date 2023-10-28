@@ -40,12 +40,12 @@ void print_dlist(DListNode *head) {
 int main(void) {
     DListNode *head = (DListNode *)malloc(sizeof(DListNode));
     init(head);
-    printf("추가 단계\n");
+    printf("추가단계\n");
     for (int i = 0; i < 5; i++) {
         dinsert(head, i);
         print_dlist(head);
     }
-    printf("\n삭제 단계\n");
+    printf("\n삭제단계\n");
     for (int i = 0; i < 5; i++) {
         print_dlist(head);
         ddelete(head, head->rlink);

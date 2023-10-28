@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 #define MAX_STACK_SIZE 100
+
 typedef int element;
 typedef struct {
     element data[MAX_STACK_SIZE];
